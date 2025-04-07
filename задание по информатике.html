@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание по информатике лол</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0f0f1a;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #1a1a2e;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 3px solid #4a2c82;
+        }
+        
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4a2c82;
+        }
+        
+        h1 {
+            color: #b388ff;
+            margin: 10px 0 0;
+            font-size: 2.5em;
+        }
+        
+        .tagline {
+            color: #a0a0a0;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+            background-color: #1a1a2e;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        h2 {
+            color: #b388ff;
+            border-bottom: 2px solid #4a2c82;
+            padding-bottom: 10px;
+        }
+        
+        .releases {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .release {
+            background-color: #252540;
+            padding: 15px;
+            border-radius: 6px;
+            transition: transform 0.3s;
+        }
+        
+        .release:hover {
+            transform: translateY(-5px);
+        }
+        
+        .release-title {
+            color: #b388ff;
+            margin-top: 0;
+        }
+        
+        .views {
+            color: #a0a0a0;
+            font-size: 0.9em;
+        }
+        
+        .members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        
+        .member {
+            text-align: center;
+            width: 120px;
+        }
+        
+        .member-name {
+            font-weight: bold;
+            margin-top: 5px;
+            color: #b388ff;
+        }
+        
+        .links {
+            text-align: center;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #4a2c82;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #6a3cb3;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a2e;
+            border-top: 3px solid #4a2c82;
+            color: #a0a0a0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i1.sndcdn.com/avatars-lXkqbAocI0YpLovk-1cZt6g-t1080x1080.jpg" alt="Логотип Six Impala" class="logo">
+        <h1>Six Impala</h1>
+        <p class="tagline">Танцевальная электроника • Поп • Вокалоидная музыка</p>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>О группе</h2>
+            <p>Six Impala - это музыкальный коллектив, работающий в жанрах электронной танцевальной музыки и поп-музыки, использующий собственного вокалоида NEUTRA. Группа была основана 14 мая 2017 года.</p>
+            <p>Участники группы сохраняют анонимность, но их инновационный звук и коллаборации завоевали им преданных поклонников в мире электронной музыки.</p>
+        </section>
+        
+        <section>
+            <h2>Популярные релизы</h2>
+            <div class="releases">
+                <div class="release">
+                    <h3 class="release-title">the city with no wind</h3>
+                    <p class="views">329 тыс. просмотров на YouTube</p>
+                </div>
+                
+                <div class="release">
+                    <h3 class="release-title">eyes in the water</h3>
+                    <p class="views">272 тыс. просмотров на YouTube</p>
+                </div>
+                
+                <div class="release">
+                    <h3 class="release-title">the beast i worship</h3>
+                    <p class="views">185 тыс. просмотров на YouTube</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Известные проекты</h2>
+            <ul>
+                <li>Участие в проекте ABTYFORM - "all nighter vol.6"</li>
+                <li>Создание официальных ремиксов для игры Friday Night Funkin'</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Участники</h2>
+            <div class="members">
+                <div class="member">
+                    <div class="member-name">KaTT</div>
+                </div>
+                <div class="member">
+                    <div class="member-name">underscores</div>
+                </div>
+                <div class="member">
+                    <div class="member-name">SCRIPT</div>
+                </div>
+                <div class="member">
+                    <div class="member-name">HELVETICAN</div>
+                </div>
+                <div class="member">
+                    <div class="member-name">NEUTRA</div>
+                    <div>(Вокалоид)</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="links">
+            <h2>Ссылки</h2>
+            <a href="https://www.youtube.com/@siximpalasix/videos" class="btn">YouTube канал</a>
+        </section>
+    </div>
+</body>
+</html>
